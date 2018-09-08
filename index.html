@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Zad. 16.6</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<h1>Country search engine</h1>
+			</div>
+		</header>
+		<div class="search-bar">
+			<div class="container">
+				<div class="select-input">
+					<input id="country-name" class="country-name" type="text" placeholder="Type country name">
+					<ul id="countries" class="countries">
+						<li></li>
+					</ul>
+				</div>
+				<!--<button id="search">
+					<span class="text">Search a country</span>
+					<span class="icon"><i class="fas fa-search"></i></span>
+				</button>-->
+
+				<!--<div class="countries">-->
+				
+			</div>
+		</div>
+		<div class="container">				
+			<div class="country-info-section">
+				<table>
+					<tr>
+						<td><img id="flag" src=""></td>
+						<td id="info-name"></td>
+					</tr>
+					<tr class="line">
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						<td class="left">Region</td>
+						<td id="info-reg"></td>
+					</tr>
+					<tr>
+						<td>Capital</td>
+						<td id="info-cap"></td>
+					</tr>
+					<tr>
+						<td>Land area</td>
+						<td id="info-area"></td>
+					</tr>
+					<tr>
+						<td>Population</td>
+						<td id="info-pop"></td>
+					</tr>
+					<tr>
+						<td>Language(s)</td>
+						<td id="info-lang"></td>
+					</tr>
+					<tr>
+						<td>Currency</td>
+						<td id="info-curr"></td>
+					</tr>
+					<tr class="line">
+						<td colspan="2"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="./js/script.js"></script>
+	</body>
+</html>
